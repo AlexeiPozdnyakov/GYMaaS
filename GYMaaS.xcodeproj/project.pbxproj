@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6722C9DD16B81628004E2609 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6722C9DC16B81628004E2609 /* UIKit.framework */; };
+		6722C9DF16B81628004E2609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6722C9DE16B81628004E2609 /* Foundation.framework */; };
+		6722C9E116B81628004E2609 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6722C9E016B81628004E2609 /* CoreGraphics.framework */; };
+		6722C9E716B81628004E2609 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6722C9E516B81628004E2609 /* InfoPlist.strings */; };
+		6722C9E916B81628004E2609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722C9E816B81628004E2609 /* main.m */; };
+		6722C9ED16B81628004E2609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722C9EC16B81628004E2609 /* AppDelegate.m */; };
+		6722C9EF16B81628004E2609 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6722C9EE16B81628004E2609 /* Default.png */; };
+		6722C9F116B81628004E2609 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6722C9F016B81628004E2609 /* Default@2x.png */; };
+		6722C9F316B81628004E2609 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6722C9F216B81628004E2609 /* Default-568h@2x.png */; };
+		6722C9F616B81628004E2609 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6722C9F416B81628004E2609 /* MainStoryboard.storyboard */; };
+		6722C9F916B81628004E2609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6722C9F816B81628004E2609 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6722C9D816B81628004E2609 /* GYMaaS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYMaaS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6722C9DC16B81628004E2609 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6722C9DE16B81628004E2609 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6722C9E016B81628004E2609 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6722C9E416B81628004E2609 /* GYMaaS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GYMaaS-Info.plist"; sourceTree = "<group>"; };
+		6722C9E616B81628004E2609 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6722C9E816B81628004E2609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6722C9EA16B81628004E2609 /* GYMaaS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GYMaaS-Prefix.pch"; sourceTree = "<group>"; };
+		6722C9EB16B81628004E2609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6722C9EC16B81628004E2609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6722C9EE16B81628004E2609 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6722C9F016B81628004E2609 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6722C9F216B81628004E2609 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6722C9F516B81628004E2609 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6722C9F716B81628004E2609 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6722C9F816B81628004E2609 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6722C9D516B81628004E2609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6722C9DD16B81628004E2609 /* UIKit.framework in Frameworks */,
+				6722C9DF16B81628004E2609 /* Foundation.framework in Frameworks */,
+				6722C9E116B81628004E2609 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6722C9CD16B81628004E2609 = {
+			isa = PBXGroup;
+			children = (
+				6722C9E216B81628004E2609 /* GYMaaS */,
+				6722C9DB16B81628004E2609 /* Frameworks */,
+				6722C9D916B81628004E2609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6722C9D916B81628004E2609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6722C9D816B81628004E2609 /* GYMaaS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6722C9DB16B81628004E2609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6722C9DC16B81628004E2609 /* UIKit.framework */,
+				6722C9DE16B81628004E2609 /* Foundation.framework */,
+				6722C9E016B81628004E2609 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6722C9E216B81628004E2609 /* GYMaaS */ = {
+			isa = PBXGroup;
+			children = (
+				6722C9EB16B81628004E2609 /* AppDelegate.h */,
+				6722C9EC16B81628004E2609 /* AppDelegate.m */,
+				6722C9F416B81628004E2609 /* MainStoryboard.storyboard */,
+				6722C9F716B81628004E2609 /* ViewController.h */,
+				6722C9F816B81628004E2609 /* ViewController.m */,
+				6722C9E316B81628004E2609 /* Supporting Files */,
+			);
+			path = GYMaaS;
+			sourceTree = "<group>";
+		};
+		6722C9E316B81628004E2609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6722C9E416B81628004E2609 /* GYMaaS-Info.plist */,
+				6722C9E516B81628004E2609 /* InfoPlist.strings */,
+				6722C9E816B81628004E2609 /* main.m */,
+				6722C9EA16B81628004E2609 /* GYMaaS-Prefix.pch */,
+				6722C9EE16B81628004E2609 /* Default.png */,
+				6722C9F016B81628004E2609 /* Default@2x.png */,
+				6722C9F216B81628004E2609 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6722C9D716B81628004E2609 /* GYMaaS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6722C9FC16B81628004E2609 /* Build configuration list for PBXNativeTarget "GYMaaS" */;
+			buildPhases = (
+				6722C9D416B81628004E2609 /* Sources */,
+				6722C9D516B81628004E2609 /* Frameworks */,
+				6722C9D616B81628004E2609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYMaaS;
+			productName = GYMaaS;
+			productReference = 6722C9D816B81628004E2609 /* GYMaaS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6722C9CF16B81628004E2609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Alexei Pozdnyakov";
+			};
+			buildConfigurationList = 6722C9D216B81628004E2609 /* Build configuration list for PBXProject "GYMaaS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6722C9CD16B81628004E2609;
+			productRefGroup = 6722C9D916B81628004E2609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6722C9D716B81628004E2609 /* GYMaaS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6722C9D616B81628004E2609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6722C9E716B81628004E2609 /* InfoPlist.strings in Resources */,
+				6722C9EF16B81628004E2609 /* Default.png in Resources */,
+				6722C9F116B81628004E2609 /* Default@2x.png in Resources */,
+				6722C9F316B81628004E2609 /* Default-568h@2x.png in Resources */,
+				6722C9F616B81628004E2609 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6722C9D416B81628004E2609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6722C9E916B81628004E2609 /* main.m in Sources */,
+				6722C9ED16B81628004E2609 /* AppDelegate.m in Sources */,
+				6722C9F916B81628004E2609 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6722C9E516B81628004E2609 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6722C9E616B81628004E2609 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6722C9F416B81628004E2609 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6722C9F516B81628004E2609 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6722C9FA16B81628004E2609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6722C9FB16B81628004E2609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6722C9FD16B81628004E2609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GYMaaS/GYMaaS-Prefix.pch";
+				INFOPLIST_FILE = "GYMaaS/GYMaaS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6722C9FE16B81628004E2609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GYMaaS/GYMaaS-Prefix.pch";
+				INFOPLIST_FILE = "GYMaaS/GYMaaS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6722C9D216B81628004E2609 /* Build configuration list for PBXProject "GYMaaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6722C9FA16B81628004E2609 /* Debug */,
+				6722C9FB16B81628004E2609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6722C9FC16B81628004E2609 /* Build configuration list for PBXNativeTarget "GYMaaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6722C9FD16B81628004E2609 /* Debug */,
+				6722C9FE16B81628004E2609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6722C9CF16B81628004E2609 /* Project object */;
+}
